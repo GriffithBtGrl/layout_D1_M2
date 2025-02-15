@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.contenedor {
+  display: flex;
+  width: 80%;
+  height: 90vh;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.contactos {
+  flex: 0 0 25%;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-color: black;
+  border-right: 2px solid black;
+}
+
+.usuario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+}
+
+.info-usuario{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.detalles-usuario{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.usuario img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.nombre{
+  font-weight: bold;
+}
+
+.estado{
+  font-size: 12px;
+  color: gray;
+}
+
+.iconos{
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.lista-contactos {
+  flex: 1;
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #444;
+}
+
+.mensaje {
+  display: block;
+  font-size: 12px;
+  color: gray;
+  margin-top: 2px;
+}
+
+.contacto:hover {
+  background: #444;
+}
+
+.contacto img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nuevo-chat {
+  padding: 10px;
+  background: #a491d2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.nuevo-chat:hover {
+  background: black;
+}
+
+
+.principal {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contenido img {
+  width: 100px;
+  margin-bottom: 10px;
+}
