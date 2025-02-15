@@ -25,7 +25,6 @@ body {
 
 
 .contactos {
-  flex: 0 0 25%;
   background: #ffffff;
   color: rgb(0, 0, 0);
   display: flex;
@@ -41,6 +40,7 @@ body {
   justify-content: space-between;
   padding: 20px;
   width: 100%;
+  border-bottom: 1px solid #444;
 }
 
 .info-usuario{
@@ -90,6 +90,7 @@ body {
   padding: 10px;
   cursor: pointer;
   border-bottom: 1px solid #444;
+  border-top: 1px solid #444;
 }
 
 .mensaje {
@@ -112,13 +113,14 @@ body {
 
 .nuevo-chat {
   padding: 10px;
+  margin: 40px;
   background: #a491d2;
   color: white;
   border: none;
   cursor: pointer;
   text-align: center;
-  border-radius: 5px;
-  margin-top: 10px;
+  border-radius: 3px;
+  margin-top: 40px;
 }
 
 .nuevo-chat:hover {
